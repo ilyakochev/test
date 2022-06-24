@@ -1,0 +1,12 @@
+1) Скопируйте файлы и папки в необходимую вам папку хостинга
+2) Создайте или импортируйте, из приложенного файла .sql, базу данных
+	структра БД 
+	1	message_id 	Первичный	int		AUTO_INCREMENT	
+	2	message_date	text	utf8mb4_0900_ai_ci				
+	3	browser	varchar(250)	utf8mb4_0900_ai_ci			
+	4	user_name	varchar(25)	utf8mb4_0900_ai_ci	
+	5	email	varchar(30)	utf8mb4_0900_ai_ci			
+	6	ip	varchar(15)	utf8mb4_0900_ai_ci		
+	7	text_message	text	utf8mb4_0900_ai_ci
+3) Введите ваши данные подключения к БД
+ 
